@@ -1,0 +1,172 @@
+.company-review-container-1 {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  
+  .company-card-1 {
+    padding: 20px;
+    border-radius: 10px;
+
+    .company-header-1 {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 178px;
+
+      .company-logo-1 {
+        width: 122px;
+        height: 95px;
+        border-radius: 10px;
+        object-fit: cover;
+        margin-left: -26px;
+
+      }
+
+      .company-info-1 {
+        flex: 1;
+        margin-left: -170px;
+        
+        h2 {
+          margin: 0;
+          font-size: 22px;
+          font-weight: bold;
+        }
+
+        .company-location-1 {
+          font-size: 14px;
+          color: gray;
+          display: flex;
+          align-items: center;
+          gap: 5px;
+        }
+
+        .rating-section-1 {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          font-size: 14px;
+          margin-top: 5px;
+          margin-right: -23px;
+          .ant-rate {
+            font-size: 16px;
+            margin-right: 5px;          
+          }
+        }
+      }
+
+      .company-actions-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-left: 193px;
+
+        .founded-date-1 {
+          font-size: 14px;
+          color: gray;
+          display: block;
+          margin-bottom: 26px;
+        }
+
+        .add-review-btn-1 {
+          background-color: #7b48db;
+          border-color: #7b48db;
+          color: #fff;
+          font-weight: bold;
+          padding: 8px 20px;
+          align-self: flex-end;
+
+          &:hover {
+            background-color: #6a3bc7;
+            border-color: #6a3bc7;
+          }
+        }
+      }
+    }
+  }
+  .section-separator {
+    border: none;
+    height: 2px;
+    background-color: #ccc; /* Light gray */
+    margin: 20px 0;
+  }
+  
+  /* Separator between individual reviews */
+  .review-separator {
+    border: none;
+    height: 1px;
+    background-color: #ddd;
+    margin: 12px 0;
+  }
+ .review-count-1{
+  margin-right: -35px;
+
+ }
+ .review-count-2{
+  font-weight: bold;
+ }
+  .reviews-container-1 {
+    margin-top: 20px;
+
+    .review-count-text-1 {
+      font-size: 14px;
+      color: gray;
+      margin-bottom: 10px;
+    }
+    .review-card-1 {
+      background: #fff;
+      padding: 16px;
+      border-radius: 8px;
+      margin-bottom: 16px;
+
+      /* Header container with rating on right */
+      .review-header-container-1 {
+        display: flex;
+        justify-content: space-between; /* Push rating to right */
+        align-items: center;
+
+        .review-header-1 {
+          display: flex;
+          align-items: center;
+          gap: 12px;
+
+          .reviewer-avatar-1 {
+            width: 50px;
+            height: 38px;
+            border-radius: 50%;
+            object-fit: cover;
+          }
+
+          h4 {
+            margin: 0;
+            font-size: 16px;
+            font-weight: bold;
+          }
+
+          .review-date-1 {
+            font-size: 13px;
+            color: gray;
+            margin-top: 2px; /* Small gap between name and date */
+          }
+        }
+
+        .review-rating-1 {
+          text-align: right;
+
+          .ant-rate {
+            font-size: 16px;
+            margin-top: 0px;
+          }
+        }
+      }
+
+      .review-text-1 {
+        margin-top: 0px; /* Small gap between date and text */
+        font-size: 16px;
+        margin-left: 59px;
+      }
+    }
+  }
+}

@@ -1,0 +1,109 @@
+// /* Global container remains the same */
+// .container {
+//   max-width: 1200px;
+//   margin: 0 auto;
+//   padding: 20px;
+// }
+
+// /* Separate container for search bar */
+// .search-container {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   padding: 15px;
+//   border-radius: 8px;
+//   margin-bottom: 20px; /* Space between search and company list */
+// }
+// .separator {
+//   width: 100%;
+//   height: 2px;
+//   background: #ddd; /* Light gray line */
+//   margin: 20px 0; /* Space between search bar and company list */
+// }
+// /* Updated Search Bar */
+// .search-bar {
+//   display: flex;
+//   align-items: center;
+//   justify-content: space-between;
+//   gap: 15px;
+//   width: 100%;
+//   max-width: 900px;
+
+//   .city-input {
+//     flex: 1;
+//     max-width: 350px;
+//     height: 40px;
+//     border-radius: 6px;
+//   }
+
+//   .find-btn,
+//   .add-btn {
+//     padding: 8px 20px;
+//     font-size: 14px;
+//     font-weight: 600;
+//     border-radius: 6px;
+//     transition: 0.3s ease-in-out;
+//     color: #fff;
+//     margin-top: auto;
+
+//   }
+
+//   .find-btn {
+//     background: linear-gradient(45deg, #5222d0, #311b92);
+//     border: none;
+//     margin-left: -226px;
+
+
+//     &:hover {
+//       background: linear-gradient(45deg, #311b92, #5222d0);
+//     }
+//   }
+
+//   .add-btn {
+//     background: linear-gradient(45deg, #6a1b9a, #8e24aa);
+//     border: none;
+
+//     &:hover {
+//       background: linear-gradient(45deg, #8e24aa, #6a1b9a);
+//     }
+//   }
+// }
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 51px;
+  padding: 20px;
+  justify-content: center;
+
+  .input-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sort-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .city-input {
+    width: 367px;
+    margin-top: 19px;
+
+  }
+
+  .sort-dropdown {
+    width: 150px;
+  }
+
+  .find-btn {
+    background: linear-gradient(90deg, #5222d0, #6a1b9a);
+    margin-top: 19px;
+    left: -28px;
+  }
+
+  .add-btn {
+    background: linear-gradient(90deg, #6a1b9a, #8e24aa);
+    margin-top: 19px;
+
+  }
+}
